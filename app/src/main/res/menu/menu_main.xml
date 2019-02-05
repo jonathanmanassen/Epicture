@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lbb.christophemei.epicture.MainActivity">
+    <item
+        android:id="@+id/viralOrder"
+        android:orderInCategory="100"
+        android:title="Viral"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/topOrder"
+        android:orderInCategory="100"
+        android:title="Top"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/userOrder"
+        android:orderInCategory="100"
+        android:title="Time"
+        app:showAsAction="never" />
+</menu>
